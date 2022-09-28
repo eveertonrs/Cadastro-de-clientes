@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CadastrodeCliente/1.0.0": {
+        "dependencies": {
+          "Bootstrap.Datepicker": "1.8.0.1",
+          "bootstrap.datepicker.TypeScript.DefinitelyTyped": "1.1.2"
+        },
+        "runtime": {
+          "CadastrodeCliente.dll": {}
+        }
+      },
+      "Bootstrap.Datepicker/1.8.0.1": {},
+      "bootstrap.datepicker.TypeScript.DefinitelyTyped/1.1.2": {
+        "dependencies": {
+          "jquery.TypeScript.DefinitelyTyped": "0.0.1"
+        }
+      },
+      "jquery.TypeScript.DefinitelyTyped/0.0.1": {}
+    }
+  },
+  "libraries": {
+    "CadastrodeCliente/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bootstrap.Datepicker/1.8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/pKY2/KjIGQHmK2reK2iowG0Weu6w42VRjBT8vS5AMcsdKMMxQ4NBrvOxWHUpzf0idY+YaKGnjXyWb+Ba+/M3g==",
+      "path": "bootstrap.datepicker/1.8.0.1",
+      "hashPath": "bootstrap.datepicker.1.8.0.1.nupkg.sha512"
+    },
+    "bootstrap.datepicker.TypeScript.DefinitelyTyped/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wk12pNiCml+q6z4WLdk0tIF5DzOAWXpY5VAVAPQjbzIh6tZl53YN3gn1pOcEgUXNNZt1m+nJWEMFIRIpPqO8Qw==",
+      "path": "bootstrap.datepicker.typescript.definitelytyped/1.1.2",
+      "hashPath": "bootstrap.datepicker.typescript.definitelytyped.1.1.2.nupkg.sha512"
+    },
+    "jquery.TypeScript.DefinitelyTyped/0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y1nzrEozBZdYr6C2Re7CxqHtFXszWYCbxQepl6ZgVzGy0hSM9t51pzXPdmyL2TuLnwhs8CdqTGpQNneWdY2DjA==",
+      "path": "jquery.typescript.definitelytyped/0.0.1",
+      "hashPath": "jquery.typescript.definitelytyped.0.0.1.nupkg.sha512"
+    }
+  }
+}

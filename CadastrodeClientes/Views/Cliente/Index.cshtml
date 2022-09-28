@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Listagem de Clientes";
+}
+<div class="text-center">
+    <br />
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-primary" role="button" asp-controller="Cliente" asp-action="Criar">Adicionar novo Cliente</a>
+    </div>
+    <h1 class="display-4">Lista de clientes</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col">Cliente</th>
+            <th scope="col">CPF</th>
+            <th scope="col">Data Nasc.</th>
+            <th scope="col">Estado</th>
+            <th scope="col">Cidade</th>
+            <th scope="col">Sexo</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td></td>
+            <td>Marcos</td>
+            <td>5075478897</td>
+            <td>26/06/1996</td>
+            <td>SP</td>
+            <td>Mogi Mirim</td>
+            <td>M</td>
+            <td>
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-primary" asp-controller="Cliente" asp-action="Editar">Editar</a>
+                    <a role="button" class="btn btn-danger" asp-controller="Cliente" asp-action="ExcluirConfirmacao">Excluir</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td></td>
+            <td>Marcos</td>
+            <td>5075478897</td>
+            <td>26/06/1996</td>
+            <td>SP</td>
+            <td>Mogi Mirim</td>
+            <td>M</td>
+             <td>
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-primary" asp-controller="Cliente" asp-action="Editar">Editar</a>
+                    <a role="button" class="btn btn-danger" asp-controller="Cliente" asp-action="ExcluirConfirmacao">Excluir</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td></td>
+            <td>Marcos</td>
+            <td>5075478897</td>
+            <td>26/06/1996</td>
+            <td>SP</td>
+            <td>Mogi Mirim</td>
+            <td>M</td>
+             <td>
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-primary" asp-controller="Cliente" asp-action="Editar">Editar</a>
+                    <a role="button" class="btn btn-danger" asp-controller="Cliente" asp-action="ExcluirConfirmacao">Excluir</a>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+</div>
